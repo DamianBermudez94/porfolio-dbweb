@@ -1233,7 +1233,7 @@ body.dark .container-card .card .face.face2{
   }
 
 
-@media  (min-width:1100px){
+@media  (min-width:960px){
   .container-card .card .face.face2{
     position: absolute;
     bottom: 0;
@@ -1248,11 +1248,11 @@ body.dark .container-card .card .face.face2{
   }
  
   .container-card .card:hover .face.face.face1-left{
- 
+    background-color: blueviolet;
     transform: translateX(-300px);
    }
    .container-card .card:hover .face.face.face1-right{
-
+     background-color: #ff0057;
      transform: translateX(300px);
     }
 
